@@ -7,7 +7,7 @@ class Node:
         return self.next is not None
 
     def has_prev(self):
-        return self.prev is not Node
+        return self.prev is not None
 
 
 class DoublyLinkedList:
