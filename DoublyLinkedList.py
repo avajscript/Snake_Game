@@ -11,8 +11,10 @@ class Node:
 
 
 class DoublyLinkedList:
-    def __init__(self, head=None):
+    def __init__(self):
         self.head = None
+        self.tail = None
+        self.cur = None
         self.size = 0
 
     def insert_start(self, node):
