@@ -17,6 +17,11 @@ class DoublyLinkedList:
         self.cur = None
         self.size = 0
 
+    def print_nodes(self):
+        current = self.head
+        while current:
+            print(f"x: ${current.x}, y {current.y}")
+            current = current.next
     def insert_start(self, node):
         if self.head is None:
             self.head = node
